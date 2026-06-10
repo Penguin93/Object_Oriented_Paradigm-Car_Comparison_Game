@@ -1,6 +1,6 @@
 Data Selection and Game Attributes
 
-Attributes:
+Attributes: Price, Year, Fuel Capacity, Power, 
 
 Class Design
 
