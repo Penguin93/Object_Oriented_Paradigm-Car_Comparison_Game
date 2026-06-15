@@ -23,29 +23,25 @@ Air Pollution Rating, Year, Odometer, Price, Range, Power
 # Class Design
 
 ## Car
--Attributes: Name, 
--Methods: 
--Role in the system: 
+- Attributes: Price, Year, Power, Range, Odometer, Air Pollution Rating
+- Methods: Pass attributes to Card
+- Role in the system: The Car class stores all of the attributes of the car and keeps it separate from other classes as to not be accessed or changed directly.
 ## Card
--Attributes: Price, Year, Power, Range, Odometer, Air Pollution Rating
--Methods: 
--Role in the system: 
+- Attributes: Car
+- Methods: Inherit attributes from Car
+- Role in the system: The Card class displays the attributes of the Car class without allowing the attributes to be changed.
 ## Deck
--Attributes: Number of cards
--Methods: Shuffle, Deal cards
--Role in the system: 
+- Attributes: Number of cards
+- Methods: Shuffle deck, Deal cards
+- Role in the system: The Deck class contains all of the cards and deals them to players when the game begins.
 ## Player
--Attributes: Name, Hand
--Methods: Play card
--Role in the system: 
-## Hand
--Attributes: 
--Methods: 
--Role in the system: 
+- Attributes: Name, Hand
+- Methods: Select attribute, Play card, Receive card
+- Role in the system: The Player class handles all interaction that a player can do
 ## Game
--Attributes: Players, 
--Methods: Start,
--Role in the system: 
+- Attributes: Number of players, Deck, Number of rounds
+- Methods: Start game, End game, Start round, End round, Determine winner of a round, Determine if a round ends in a draw, Determine winner of a game
+- Role in the system: The Game class handles all of the interactions that can happen that allow the game to progress. It also handles any complications
 
 # Class Diagram
 
@@ -53,11 +49,11 @@ Air Pollution Rating, Year, Odometer, Price, Range, Power
 
 # Game Mechanics Design
 
-How a round is played:
-How attributes are selected:
-How winners are determined:
-What happens in a draw:
-How the game ends:
+- How a round is played: A round is played by a player selecting an attribute
+- How attributes are selected: 
+- How winners are determined: A winner is determined by identifying the value of the selected attribute on each player's card. The player that played the card with the highest value of the selected attribute is considered the winner of the round.
+- What happens in a draw: In the event of a draw,
+- How the game ends: 
 
 # Interface and Card Design
 
