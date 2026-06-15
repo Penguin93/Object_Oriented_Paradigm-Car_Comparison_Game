@@ -14,9 +14,9 @@ Air Pollution Rating, Year, Odometer, Price, Range, Power
 
 ## What makes each attribute fair or unfair in gameplay
 - Price is a fair attribute as each car can vary wildly depending on several factors, and price generally correlates with how high quality a car is.
-- Year is a fair attribute as each car is 
-- Power is a fair attribute as cars typically
-- Range is a fair attribute as it is usually dependent on the type of car and the quality of it.
+- Year is a fair attribute as usually correlates with the price and odometer of a car.
+- Power is a fair attribute as cars typically have higher power depending on the type of car.
+- Range is a fair attribute as it is usually dependent on the type of car and the quality of it. 
 - Odometer is a fair attribute as it usually correlates to the car being older and cheaper, providing a high-rating stat for cars that may have few good stats.
 - Air Pollution Rating is a fair attribute for allowing more environmentally friendly cars that might have lower stats to have a good chance in winning. Electric cars are also considered, although this stat might be unfair in favour of them as their air pollution rating is high due to the fact that they don't produce carbon emissions.
 
@@ -35,13 +35,13 @@ Air Pollution Rating, Year, Odometer, Price, Range, Power
 - Methods: Shuffle deck, Deal cards
 - Role in the system: The Deck class contains all of the cards and deals them to players when the game begins.
 ## Player
-- Attributes: Name, Hand
+- Attributes: Name, Hand, Score
 - Methods: Select attribute, Play card, Receive card
-- Role in the system: The Player class handles all interaction that a player can do
+- Role in the system: The Player class handles all interactions that a player can do. It contains a player's name and their hand of cards.
 ## Game
 - Attributes: Number of players, Deck, Number of rounds
 - Methods: Start game, End game, Start round, End round, Determine winner of a round, Determine if a round ends in a draw, Determine winner of a game
-- Role in the system: The Game class handles all of the interactions that can happen that allow the game to progress. It also handles any complications
+- Role in the system: The Game class handles all of the interactions that can happen that allow the game to progress. It also handles any complications of a draw.
 
 # Class Diagram
 
@@ -49,11 +49,11 @@ Air Pollution Rating, Year, Odometer, Price, Range, Power
 
 # Game Mechanics Design
 
-- How a round is played: A round is played by a player selecting an attribute
-- How attributes are selected: 
+- How a round is played: A round is played by a player playing a card and selecting an attribute. All other players play their card after the attribute is selected. The round ends once a winner is determined.
+- How attributes are selected: The attribute of the round is selected by the player that won the previous round (On the first round, the attribute is selected by the player to the left of the dealer). The player selects an attribute by looking at their card and saying the attribute they want to select out loud.
 - How winners are determined: A winner is determined by identifying the value of the selected attribute on each player's card. The player that played the card with the highest value of the selected attribute is considered the winner of the round.
 - What happens in a draw: In the event of a draw,
-- How the game ends: 
+- How the game ends: The game can end in two ways. The first way is once one player collects every card from every other player and is determined the winner of the game. The second way is once a predetermined number of rounds are played. The player with the most amount of cards at the end of the game is determined the winner.
 
 # Interface and Card Design
 
