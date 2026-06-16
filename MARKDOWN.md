@@ -49,16 +49,31 @@ Air Pollution Rating, Year, Odometer, Price, Range, Power
 
 # Game Mechanics Design
 
+## How the game works
 - How a round is played: A round is played by a player playing a card and selecting an attribute. All other players play their card after the attribute is selected. The round ends once a winner is determined.
 - How attributes are selected: The attribute of the round is selected by the player that won the previous round (On the first round, the attribute is selected by the player to the left of the dealer). The player selects an attribute by looking at their card and saying the attribute they want to select out loud.
 - How winners are determined: A winner is determined by identifying the value of the selected attribute on each player's card. The player that played the card with the highest value of the selected attribute is considered the winner of the round.
-- What happens in a draw: In the event of a draw,
+- What happens in a draw: In the event of a draw, all cards played are stacked together and put to the side in a separate deck. These cards are then given to the player who wins the next round. If a draw happens again, all played cards get added to the deck. Repeat this process until a player wins a round.
 - How the game ends: The game can end in two ways. The first way is once one player collects every card from every other player and is determined the winner of the game. The second way is once a predetermined number of rounds are played. The player with the most amount of cards at the end of the game is determined the winner.
+## Game Balance
+This game is balanced so that everyone has a chance of winning no matter what card they get. Some cards are more powerful than others, but every card has at least one high rating attribute and one low rating attribute.
+## Unfair Advantage and how to fix it
+
+## Modelled Structure Chart
 
 # Interface and Card Design
 
+## Card Design
+
+## Game Interface Sketch
 
 
 # Social, Ethical and Legal Implications
 
+## Individual Impact
 
+## Social Impact
+
+## Environmental Impact
+
+## Legal Considerations
