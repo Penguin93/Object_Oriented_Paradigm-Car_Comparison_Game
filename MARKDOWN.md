@@ -43,9 +43,9 @@ Air Pollution Rating, Year, Odometer, Price, Range, Power
 - Methods: Start game, End game, Start round, End round, Determine winner of a round, Determine if a round ends in a draw, Determine winner of a game
 - Role in the system: The Game class handles all of the interactions that can happen that allow the game to progress. It also handles any complications of a draw.
 
-# Class Diagram
+# UML Class Diagram
 
-
+![alt text](image.png)
 
 # Game Mechanics Design
 
