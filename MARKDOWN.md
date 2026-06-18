@@ -45,7 +45,7 @@ Air Pollution Rating, Year, Odometer, Price, Range, Power
 
 # UML Class Diagram
 
-![alt text](image.png)
+![alt text](<UML Class Diagram.png>)
 
 # Game Mechanics Design
 
@@ -60,13 +60,13 @@ This game is balanced so that everyone has a chance of winning no matter what ca
 ## Unfair Advantage and how to fix it
 An unfair advantage that is apparent in this game is that electric cars have a better Air Pollution Rating than all other cars. This issue can be solved by selecting electric cars with lower value attributes to account for a dominant Air Pollution Rating.
 ## Modelled Structure Chart
-
+![alt text](<Structure Chart.jpg>)
 # Interface and Card Design
 
 ## Card Design
-
+![alt text](<Card Design.jpg>)
 ## Game Interface Sketch
-
+![alt text](<Game Interface.jpg>)
 
 # Social, Ethical and Legal Implications
 
