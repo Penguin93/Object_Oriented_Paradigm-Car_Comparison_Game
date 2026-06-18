@@ -56,9 +56,9 @@ Air Pollution Rating, Year, Odometer, Price, Range, Power
 - What happens in a draw: In the event of a draw, all cards played are stacked together and put to the side in a separate deck. These cards are then given to the player who wins the next round. If a draw happens again, all played cards get added to the deck. Repeat this process until a player wins a round.
 - How the game ends: The game can end in two ways. The first way is once one player collects every card from every other player and is determined the winner of the game. The second way is once a predetermined number of rounds are played. The player with the most amount of cards at the end of the game is determined the winner.
 ## Game Balance
-This game is balanced so that everyone has a chance of winning no matter what card they get. Some cards are more powerful than others, but every card has at least one high rating attribute and one low rating attribute.
+This game is balanced so that everyone has a chance of winning no matter what card they get. Some cards are more powerful than others, but every card has at least one high rating attribute and one low rating attribute. Knowledge of the cards makes it easier to know how good each card is and what attribute each card is advantageous in. Since the player that is selecting the attribute is the only one with their card facing up, they have to account for every other card in play and choose the attribute based on both how high its value is and how well it scales compared to the other cards.
 ## Unfair Advantage and how to fix it
-
+An unfair advantage that is apparent in this game is that electric cars have a better Air Pollution Rating than all other cars. This issue can be solved by selecting electric cars with lower value attributes to account for a dominant Air Pollution Rating.
 ## Modelled Structure Chart
 
 # Interface and Card Design
@@ -71,9 +71,18 @@ This game is balanced so that everyone has a chance of winning no matter what ca
 # Social, Ethical and Legal Implications
 
 ## Individual Impact
-
+- My game could influence people to think that pricier and high-performance cars are better for general use. However, it also influences people to consider the quality and environmental impact of their car.
+- Bias can certainly be encouraged from the attributes of the cars, favouring expensive cars, high-quality cars, environmentally friendly cars, or newer cars.
+- Presenting fair information is important so as to not mislead users about the specifications of cars.
 ## Social Impact
-
+- My game could reinforce steretypes of wealthiness as more expensive and higher quality cars are favourable in terms of gameplay.
+- The system of my game does favour more high-performance cars. However, it also favours more general cars when considering Odometer and Air Pollution Rating.
+- The design of my game could be more inclusive by making the Price attribute less powerful in game balance.
 ## Environmental Impact
-
+- The Range attribute could influence attitudes that more sustainable fuel use is important in the quality of a car.
+- The addition of the Air Pollution Rating attribute promotes the importance of environmentally friendly cars, and the Odometer attribute promotes sustainability and using a car over a long period of time.
+- More environmentally focused attributes could encourage environmentally friendly behaviour.
 ## Legal Considerations
+- Copyright issues would certainly arise from using real car data for this game. I also have to be accurate with the specifications of the attributes, as inaccurate information could be perceived as bias or defamation.
+- I have the responsibility to consider the information that is displayed on platforms such as carsales.com.au and decipher whether that information is accurate compared to other platforms.
+- An easy solution to ensure that I don't mislead users is to clarify in the rules or on the cards that the attributes of the cars are inspired by car listings on carsales.com.au and any other platforms.
