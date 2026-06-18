@@ -65,6 +65,7 @@ An unfair advantage that is apparent in this game is that electric cars have a b
 
 ## Card Design
 ![alt text](<Card Design.jpg>)
+Direct link to example car listing -> https://www.carsales.com.au/cars/details/2010-porsche-panamera-970-auto-my11/SSE-AD-20522004/​
 ## Game Interface Sketch
 ![alt text](<Game Interface.jpg>)
 
